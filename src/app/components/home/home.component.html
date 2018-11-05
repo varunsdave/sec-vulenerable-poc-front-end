@@ -1,0 +1,11 @@
+<h1>Hi {{currentUser.userName}}!</h1>
+<p>You're logged!</p>
+<h3>Registered user is: {{currentUser.userId}}</h3>
+
+<button (click)="clickButton()">Click here to get token</button>
+<p>This is your data {{data}}</p>
+
+<button (click)="weakSecurityButton()">Click here to get token</button>
+<p>How is this data {{weakData}}</p>
+
+<button (click)="logout()">Logout</button>
